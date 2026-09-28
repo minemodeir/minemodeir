@@ -5,33 +5,35 @@
 
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Mine Mode | دانلود بازی و مود ماینکرفت</title>
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Mine Mode",
-  "alternateName": ["MineMode"],
-  "url": "https://minemodeir.github.io/minemodeir/"
-}
-</script>
 
-    <meta name="description" content="Mine Mode؛ دانلود بازی‌های مختلف و بازی‌های ساخته شده توسط سازنده سایت.">
+    <meta name="description"
+        content="Mine Mode؛ دانلود بازی‌های مختلف و بازی‌های ساخته شده توسط سازنده سایت. همچنین پیدا کردن و انتشار مودهای ماینکرفت.">
 
-    <meta name="keywords" content="Mine Mode, minemodeir, دانلود بازی, بازی کامپیوتری, بازی, مود ماینکرفت">
+    <meta name="keywords"
+        content="Mine Mode, minemodeir, دانلود بازی, بازی کامپیوتری, بازی, مود ماینکرفت">
 
     <meta name="author" content="Mine Mode">
 
+    <meta name="google-site-verification" content="">
+
+    <link rel="canonical"
+        href="https://minemodeir.github.io/minemodeir/">
+
     <link rel="icon" type="image/png" href="icon.png">
 
+    <!-- نام سایت برای موتورهای جستجو -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Mine Mode",
+        "alternateName": "MineMode",
+        "url": "https://minemodeir.github.io/minemodeir/"
+    }
+    </script>
 
     <style>
-
-        * {
-            box-sizing: border-box;
-        }
 
         body {
             background-image: url("backs.png");
@@ -44,6 +46,7 @@
             padding: 0;
         }
 
+        /* دکمه های بالای صفحه */
 
         .top-buttons {
             position: absolute;
@@ -67,10 +70,10 @@
             cursor: pointer;
         }
 
+        /* جستجو */
 
         .search-box {
             width: 350px;
-            max-width: 90%;
             padding: 15px;
             font-size: 20px;
             border: 2px solid #999;
@@ -80,10 +83,8 @@
             margin-top: 80px;
         }
 
-
         .search-results {
             width: 380px;
-            max-width: 90%;
             margin: 5px auto 30px auto;
             background-color: white;
             border: 1px solid #999;
@@ -104,15 +105,11 @@
             background-color: #eee;
         }
 
-
-        h1 {
-            font-size: 32px;
-        }
-
         p {
             font-size: 20px;
         }
 
+        /* دکمه های اصلی */
 
         .main-button {
             padding: 15px 25px;
@@ -124,7 +121,6 @@
             cursor: pointer;
         }
 
-
         .publish-button {
             padding: 15px 35px;
             background-color: #ddd;
@@ -134,7 +130,6 @@
             font-size: 22px;
             cursor: pointer;
         }
-
 
         .support-button {
             padding: 15px 35px;
@@ -146,77 +141,19 @@
             cursor: pointer;
         }
 
+        /* بازی ها فقط برای جستجو */
 
         .game {
             display: none;
-        }
-
-
-        /* مخصوص موبایل */
-
-        @media (max-width: 600px) {
-
-            .top-buttons {
-                position: static;
-                width: 100%;
-                justify-content: center;
-                padding-top: 15px;
-                gap: 8px;
-            }
-
-            .top-button {
-                padding: 9px 12px;
-                font-size: 15px;
-            }
-
-
-            .search-box {
-                width: 90%;
-                margin-top: 35px;
-                font-size: 18px;
-                padding: 13px;
-            }
-
-
-            .search-results {
-                width: 90%;
-            }
-
-
-            h1 {
-                font-size: 27px;
-                padding: 0 15px;
-            }
-
-            p {
-                font-size: 18px;
-                padding: 0 15px;
-                line-height: 1.8;
-            }
-
-
-            .main-button {
-                padding: 13px 20px;
-                font-size: 18px;
-            }
-
-
-            .publish-button,
-            .support-button {
-                padding: 13px 25px;
-                font-size: 19px;
-                max-width: 90%;
-            }
-
         }
 
     </style>
 
 </head>
 
-
 <body>
 
+    <!-- دکمه های بالای صفحه -->
 
     <div class="top-buttons">
 
@@ -227,7 +164,6 @@
             </button>
 
         </a>
-
 
         <a href="mod.html">
 
@@ -240,6 +176,8 @@
     </div>
 
 
+    <!-- جستجو -->
+
     <input
         type="text"
         id="search"
@@ -247,22 +185,24 @@
         placeholder="جست و جو"
     >
 
-
     <div
         id="search-results"
         class="search-results">
     </div>
 
 
+    <!-- متن اصلی -->
+
     <h1>
         سلام! به سایت ما خوش اومدی!
     </h1>
-
 
     <p>
         اینجا قراره یه سری بازی ببینی یا حتی مود ماینکرفت
     </p>
 
+
+    <!-- اطلاعات بیشتر -->
 
     <a href="info.html">
 
@@ -276,6 +216,8 @@
     <br><br>
 
 
+    <!-- انتشار بازی -->
+
     <a href="gameu.html">
 
         <button class="publish-button">
@@ -288,6 +230,8 @@
     <br><br><br><br>
 
 
+    <!-- Scam Click -->
+
     <div
         class="game"
         data-url="scamclick.html">
@@ -298,6 +242,8 @@
 
     </div>
 
+
+    <!-- fire in sky -->
 
     <div
         class="game"
@@ -313,6 +259,8 @@
     <br><br><br><br>
 
 
+    <!-- حمایت مالی -->
+
     <a href="support.html">
 
         <button class="support-button">
@@ -327,10 +275,8 @@
         const searchBox =
             document.getElementById("search");
 
-
         const searchResults =
             document.getElementById("search-results");
-
 
         const games =
             document.querySelectorAll(".game");
@@ -350,7 +296,6 @@
                 searchResults.style.display = "none";
 
                 return;
-
             }
 
 
@@ -361,7 +306,6 @@
 
                 const gameName =
                     game.querySelector("h2").innerText.trim();
-
 
                 const gameNameLower =
                     gameName.toLowerCase();
@@ -379,12 +323,17 @@
                     result.className = "result";
 
 
-                    result.innerText = gameName;
+                    result.innerText =
+                        gameName;
 
+
+                    /* لینک صفحه بازی */
 
                     const gameUrl =
                         game.getAttribute("data-url");
 
+
+                    /* کلیک روی نتیجه */
 
                     result.addEventListener("click", function() {
 
